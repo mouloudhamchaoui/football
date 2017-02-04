@@ -66,7 +66,7 @@ class Attaquant(Strategy):
         
         return SoccerAction(s.myPos_ball(),Vector2D())
         
-class Defenceur(Strategy):
+class Defenseur(Strategy):
     
     def __init__(self):
         Strategy.__init__(self,"Defenceur")
