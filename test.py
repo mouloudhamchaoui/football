@@ -90,9 +90,9 @@ class Defenseur(Strategy):
 
 # Creation des des joueurs
 joueur_1 = Player("1",Attaquant())
-joueur_2 = Player("2",Defenceur())
+joueur_2 = Player("2",Defenseur())
 joueur_3 = Player("3",Attaquant())
-joueur_4 = Player("4",Defenceur())
+joueur_4 = Player("4",Defenseur())
 
 # Creations des equipes
 equipe_1 = SoccerTeam("Equipe_1",[joueur_1,joueur_2])
